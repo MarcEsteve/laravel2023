@@ -12,15 +12,15 @@ class Ejemplo3Controller extends Controller
      */
     public function index()
     {
-        return "Estas en la funcion index, inicio del sitio o cualquier accion";
+        return "Estas en la funcion index, inicio del sitio o cualquier acción";
     }
 
     /**
      * Show the form for creating a new resource.
      */
-    public function create()
+    public function create($id)
     {
-        //
+        return "Estas en la funcion create con parámetro id: " . $id;
     }
 
     /**

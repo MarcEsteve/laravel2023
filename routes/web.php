@@ -13,13 +13,13 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
-
 Route::get('/', function () {
-    return "Inicio Home";
+    return view('welcome');
 });
+
+// Route::get('/', function () {
+//     return "Inicio Home";
+// });
 
 Route::get('/contacto', function () {
     return "Este es el formulario de contacto";

@@ -6,6 +6,8 @@ use App\Http\Controllers\EjemploController;
 use App\Http\Controllers\Ejemplo3Controller;
 use App\Http\Controllers\PaginasController;
 
+use App\Http\Controllers\HomeController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -26,10 +28,12 @@ Route::get('/', [PaginasController::class, 'inicio']);
 Route::redirect('/inicio', '/');
 Route::redirect('/home', '/');
 
-
 Route::get('/serveis-web', [PaginasController::class, 'serveisweb']);
 Route::get('/formation-business-help', [PaginasController::class, 'formacion']);
 Route::get('/contacto', [PaginasController::class, 'contacto']);
+
+// Route::resource("posts",Ejemplo3Controller::class);
+// Route::resource("content",PaginasController::class);
 
 // Route::get('/contacto', function () {
 //     return "Formulario de contacto";
@@ -45,6 +49,8 @@ Route::get('/contacto', [PaginasController::class, 'contacto']);
 
 // Route::get('/inicio', [EjemploController::class, 'inicio']);
  
-Route::get('/user/{id}', [UserController::class, 'show']);
+// Route::get('/user/{id}', [UserController::class, 'show']);
 
-Route::get('/index/{id}', [Ejemplo3Controller::class, 'index']);
+// Route::get('/index/{id}', [Ejemplo3Controller::class, 'index']);
+
+Route::get('/blade', [HomeController::class, 'index']);

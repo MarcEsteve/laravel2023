@@ -18,9 +18,9 @@ class Ejemplo3Controller extends Controller
     /**
      * Show the form for creating a new resource.
      */
-    public function create($id)
+    public function create()
     {
-        return "Estas en la funcion create con parámetro id: " . $id;
+        return "Estas en la funcion create con parámetro id: ";
     }
 
     /**

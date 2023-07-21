@@ -51,7 +51,7 @@
                                 <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Serveis Web</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel has wonderful documentation covering every aspect of the framework. Whether you are a newcomer or have prior experience with Laravel, we recommend reading our documentation from beginning to end.
+                                Servei de formació web, per a poder gestionar el teu propi lloc a internet des de l’inici fins a la finalització del projecte, amb el desenvolupament i programació més avançada per entorns web.
                                 </p>
                             </div>
 
@@ -71,7 +71,7 @@
                                 <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Formation Business Web</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
+                                Formation Business Help és un nou servei de formacions per a empreses que necessiten formar als seus treballadors o directius en un programa o software de qualsevol tipus i en comptes de fer una despesa o inversió de les hores dels seus enginyers o tècnics que haurien de treballar en els projectes de l’empresa, els dediquen a formar la resta de companys, amb la conseqüent ineficiència i despesa econòmica extra que suposa perdre les hores d’un treballador a no hores productives.
                                 </p>
                             </div>
 
@@ -88,10 +88,10 @@
                                     </svg>
                                 </div>
 
-                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Contacto</h2>
+                                <h2 class="mt-6 text-xl font-semibold text-gray-900 dark:text-white">Contacte</h2>
 
                                 <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
+                                Informació de Contacte. Ens trobaràs a l'horari aproximat de 08h a 20h, gairebé tots els dies.
                                 </p>
                             </div>
 
@@ -121,11 +121,11 @@
                 <div class="flex justify-center mt-16 px-0 sm:items-center sm:justify-between">
                     <div class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left">
                         <div class="flex items-center gap-4">
-                            <a href="https://github.com/sponsors/taylorotwell" class="group inline-flex items-center hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
+                            <a href="https://pr0j3ct.com" class="group inline-flex items-center hover:text-gray-700 dark:hover:text-white focus:outline focus:outline-2 focus:rounded-sm focus:outline-red-500">
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="-mt-px mr-1 w-5 h-5 stroke-gray-400 dark:stroke-gray-600 group-hover:stroke-gray-600 dark:group-hover:stroke-gray-400">
                                     <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
                                 </svg>
-                                Sponsor
+                                PR0J3CT
                             </a>
                         </div>
                     </div>

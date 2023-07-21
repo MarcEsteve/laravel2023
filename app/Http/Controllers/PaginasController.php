@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-
 class PaginasController extends Controller
 {
     public function inicio(){
@@ -16,7 +14,7 @@ class PaginasController extends Controller
         return view ('serveisweb');
 
     }
-    public function fbh(){
+    public function formacion(){
 
         return view ('fbh');
 

@@ -24,9 +24,11 @@ use App\Http\Controllers\PaginasController;
 Route::get('/', [PaginasController::class, 'inicio']);
 // Route::get('/inicio', [PaginasController::class, 'inicio']);
 Route::redirect('/inicio', '/');
+Route::redirect('/home', '/');
+
 
 Route::get('/serveis-web', [PaginasController::class, 'serveisweb']);
-Route::get('/formation-business-help', [PaginasController::class, 'fbh']);
+Route::get('/formation-business-help', [PaginasController::class, 'formacion']);
 Route::get('/contacto', [PaginasController::class, 'contacto']);
 
 // Route::get('/contacto', function () {

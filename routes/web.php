@@ -5,8 +5,9 @@ use App\Http\Controllers\UserController;
 use App\Http\Controllers\EjemploController;
 use App\Http\Controllers\Ejemplo3Controller;
 use App\Http\Controllers\PaginasController;
-
+use App\Http\Controllers\Ejemplo5Controller;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ConnectController;
 
 /*
 |--------------------------------------------------------------------------
@@ -54,3 +55,11 @@ Route::get('/contacto', [PaginasController::class, 'contacto']);
 // Route::get('/index/{id}', [Ejemplo3Controller::class, 'index']);
 
 Route::get('/blade', [HomeController::class, 'index']);
+
+Route::get('/ejemplo', [ConnectController::class, 'index'])->name('ejemplo.index');
+Route::get('/ejemplo/create', [ConnectController::class, 'create'])->name('ejemplo.create');
+Route::post('/ejemplo', [ConnectController::class, 'store'])->name('ejemplo.store');
+Route::get('/ejemplo/{ejemplo}/edit', [ConnectController::class, 'edit'])->name('ejemplo.edit');
+Route::put('/ejemplo/{ejemplo}', [ConnectController::class, 'update'])->name('ejemplo.update');
+Route::delete('/ejemplo/{ejemplo}', [ConnectController::class, 'destroy'])->name('ejemplo.destroy');
+Route::get('/ejemplo/{ejemplo}/delete', [ConnectController::class, 'delete'])->name('ejemplo.delete');
